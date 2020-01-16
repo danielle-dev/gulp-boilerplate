@@ -1,0 +1,42 @@
+{
+  "name": "gulp-boilerplate",
+  "version": "1.0.0",
+  "description": "A lightweight boilerplate for developing front-end projects with Gulp.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christiaansnoei/gulp-boilerplate.git"
+  },
+  "keywords": [
+    "gulp",
+    "boilerplate",
+    "front-end",
+    "scss",
+    "bootstrap"
+  ],
+  "author": "Christiaan Snoei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christiaansnoei/gulp-boilerplate/issues"
+  },
+  "homepage": "https://github.com/christiaansnoei/gulp-boilerplate#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.1",
+    "browser-sync": "^2.26.7",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-changed": "^4.0.2",
+    "gulp-cheerio": "^1.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^6.1.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-svgmin": "^2.2.0",
+    "gulp-twig": "^1.2.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}
