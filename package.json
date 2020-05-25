@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/christiaansnoei/gulp-boilerplate.git"
+    "url": "git+https://github.com/danielle-dev/gulp-boilerplate.git"
   },
   "keywords": [
     "gulp",
@@ -17,13 +17,14 @@
     "scss",
     "bootstrap"
   ],
-  "author": "Christiaan Snoei",
+  "author": "Danielle Klaasen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/christiaansnoei/gulp-boilerplate/issues"
+    "url": "https://github.com/dnaielle-dev/gulp-boilerplate/issues"
   },
-  "homepage": "https://github.com/christiaansnoei/gulp-boilerplate#readme",
+  "homepage": "https://github.com/danielle-dev/gulp-boilerplate#readme",
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.0.6",
     "autoprefixer": "^9.7.1",
     "browser-sync": "^2.26.7",
     "cssnano": "^4.1.10",
@@ -32,11 +33,15 @@
     "gulp-cheerio": "^1.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^6.1.1",
+    "gulp-include": "^2.4.1",
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-svgmin": "^2.2.0",
     "gulp-twig": "^1.2.0",
-    "gulp-uglify": "^3.0.2"
+    "gulp-uglify": "^3.0.2",
+    "tailwindcss": "^1.2.0",
+    "tailwindcss-aspect-ratio": "^3.0.0",
+    "tailwindcss-transitions": "^2.2.0"
   }
 }
