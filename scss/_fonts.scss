@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'AmsiPro';
+    src: url('../font/AmsiPro/AmsiPro-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'AmsiPro';
+    src: url('../font/AmsiPro/AmsiPro-Bold.otf') format('otf');
+    font-weight: $font-weight-bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'AmsiPro';
+    src: url('../font/AmsiPro/AmsiPro-Black.otf') format('otf');
+    font-weight: $font-weight-bolder;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'ThirstyRoughBol';
+    src: url('../font/ThirstyRoughBol/ThirstyRoughBol.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'VeneerClean';
+    // src: url('../font/VeneerClean/VeneerClean-Soft.ttf') format('ttf');
+    src: url('../font/veneerclean-reg') format('otf');
+    font-weight: normal;
+    font-style: normal;
+  }

@@ -4,7 +4,10 @@
   "description": "A lightweight boilerplate for developing front-end projects with Gulp.",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "dev": "gulp",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -43,5 +46,8 @@
     "tailwindcss": "^1.2.0",
     "tailwindcss-aspect-ratio": "^3.0.0",
     "tailwindcss-transitions": "^2.2.0"
+  },
+  "dependencies": {
+    "hamburgers": "^1.1.3"
   }
 }

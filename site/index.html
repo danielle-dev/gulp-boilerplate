@@ -3,7 +3,17 @@
   <head>
     {% include "./_includes/header.html" %}
   </head>
-  <body>
+  <body class="home">
+    {% include "./_includes/navigation.html" %}
+    <main role="main">
+      {% include "./_includes/hero.html" %}
+      <div class="container">
+        {% include "./_includes/socials.html" %}
+        {% include "./_includes/product-slider.html" %}
+      </div> <!-- /container -->
+    
+    </main>
     {% include "./_includes/footer.html" %}
+    {% include "./_includes/scripts.html" %}
   </body>
 </html>

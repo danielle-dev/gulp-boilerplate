@@ -1,0 +1,25 @@
+.btn {
+    &.btn-outline-primary {
+        border-color: $border-color;
+        border-radius: 1.5rem;
+        color: $headings-color;
+        font-weight: $font-weight-bolder;
+        padding: .5rem 1.75rem;
+        &:hover {
+            background-color: $border-color;
+        }
+    }
+}
+
+.icon-wrapper{
+    .btn {
+        padding: 0 !important;
+        width: 3rem;
+        height: 3rem;
+        margin-right: 1rem;
+        border-radius: 50%;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+}

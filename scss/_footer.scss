@@ -1,0 +1,23 @@
+footer {
+    .row {
+        margin-bottom: 2rem;
+        .col-md-4 {
+            border-right: 1px solid $border-color;
+            &:last-child{
+                border-right: 0;   
+            }
+            .icon-wrapper {
+                .btn {
+                    border: 0;
+                    margin-right: 0;
+                }
+            }
+        }
+        &.footer-bottom-links{
+            a {
+                padding: 1rem;
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
